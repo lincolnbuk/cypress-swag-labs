@@ -1,0 +1,16 @@
+{
+  "name": "cypress-swag-labs",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados para o site Swag Labs usando Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^12.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
