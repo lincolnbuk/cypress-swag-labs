@@ -12,6 +12,8 @@ Ele serve como exemplo para demonstrar como estruturar, configurar e executar te
 This project uses [Cypress](https://www.cypress.io/) to perform end-to-end automated testing on the [Swag Labs](https://www.saucedemo.com/) website.
 It serves as an example to demonstrate how to structure, configure, and run automated tests with Cypress.
 
+---
+
 ## 📁 Estrutura do Projeto / Project Structure
 
 ```bash
