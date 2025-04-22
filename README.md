@@ -1,64 +1,24 @@
-# Cypress Swag Labs Test Project
+# 🧪 Cypress Swag Labs Test Project ![Cypress Badge](https://img.shields.io/badge/tested%20with-Cypress-00b140.svg)
 
-Este projeto utiliza o Cypress para realizar testes automatizados no site Swag Labs. Abaixo estão as instruções para configurar e executar os testes.
+Este projeto utiliza o [Cypress](https://www.cypress.io/) para realizar testes automatizados end-to-end no site [Swag Labs](https://www.saucedemo.com/). Ele serve como exemplo para demonstrar como estruturar, configurar e executar testes automatizados com Cypress.
 
-## Estrutura do Projeto
+---
 
-O projeto possui a seguinte estrutura de diretórios:
+## 📁 Estrutura do Projeto
 
-```
+```bash
 cypress-swag-labs
 ├── cypress
 │   ├── fixtures
-│   │   └── example.json
+│   │   └── example.json           # Dados de exemplo usados nos testes
 │   ├── integration
-│   │   └── swag-labs.spec.js
+│   │   └── swag-labs.spec.js      # Testes automatizados
 │   ├── plugins
-│   │   └── index.js
+│   │   └── index.js               # Configurações de plugins
 │   └── support
-│       ├── commands.js
-│       └── index.js
-├── cypress.json
-├── package.json
-└── README.md
+│       ├── commands.js            # Comandos personalizados
+│       └── index.js               # Configuração global
+├── cypress.json                   # Configurações do Cypress
+├── package.json                   # Dependências e scripts
+└── README.md                      # Documentação do projeto
 ```
-
-## Pré-requisitos
-
-- Node.js instalado
-- npm ou yarn
-
-## Instalação
-
-1. Clone o repositório:
-   ```
-   git clone <URL_DO_REPOSITORIO>
-   cd cypress-swag-labs
-   ```
-
-2. Instale as dependências:
-   ```
-   npm install
-   ```
-
-## Executando os Testes
-
-Para executar os testes, utilize o seguinte comando:
-
-```
-npx cypress open
-```
-
-Isso abrirá a interface do Cypress, onde você poderá selecionar e executar os testes definidos em `cypress/integration/swag-labs.spec.js`.
-
-## Estrutura dos Testes
-
-Os testes estão localizados em `cypress/integration/swag-labs.spec.js` e utilizam dados de exemplo armazenados em `cypress/fixtures/example.json`. Você pode personalizar os testes e os dados conforme necessário.
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com melhorias ou correções. Para isso, crie um fork do repositório e envie um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License.
