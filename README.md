@@ -1,6 +1,6 @@
 # Swag Labs Test Automation
 
-![poster](https://github.com/lincolnbuk/swag-labs-tests/raw/main/.github/cover.png)
+![poster](https://img-c.udemycdn.com/course/240x135/5462630_2bfb_7.jpg)
 
 ---
 
