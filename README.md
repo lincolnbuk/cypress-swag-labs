@@ -140,6 +140,7 @@ Automation of the Swag Labs website for the following seven test cases:
 
 ---
 
-## 📄 Licença
+## 📄 Licença / License
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
