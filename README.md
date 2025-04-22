@@ -1,10 +1,8 @@
----
+# Swag Labs Test Automation
 
 ![poster](.github/cover.png)
 
----
-
-# 🧪 Cypress Swag Labs Test Project ![Cypress Badge](https://img.shields.io/badge/tested%20with-Cypress-00b140.svg)
+## 🧪 Cypress Swag Labs Test Project ![Cypress Badge](https://img.shields.io/badge/tested%20with-Cypress-00b140.svg)
 
 Este projeto utiliza o [Cypress](https://www.cypress.io/) para realizar testes automatizados end-to-end no site [Swag Labs](https://www.saucedemo.com/).  
 Ele serve como exemplo para demonstrar como estruturar, configurar e executar testes automatizados com Cypress.
