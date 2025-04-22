@@ -1,6 +1,8 @@
 # Swag Labs Test Automation
 
-![poster](.github/cover.png)
+![poster](https://github.com/lincolnbuk/swag-labs-tests/raw/main/.github/cover.png)
+
+---
 
 ## 🧪 Cypress Swag Labs Test Project ![Cypress Badge](https://img.shields.io/badge/tested%20with-Cypress-00b140.svg)
 
