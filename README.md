@@ -1,6 +1,6 @@
 # Swag Labs Test Automation
 
-![poster](https://img-c.udemycdn.com/course/240x135/5462630_2bfb_7.jpg)
+![poster](https://cdn.eveclass.com/p/64da9e3dedc4a33519851fbe/files/gallery/image/9abd0cf0-c86f-11ee-8a0a-175ce68ebadf/original.png)
 
 ---
 
