@@ -18,17 +18,17 @@ It serves as an example to demonstrate how to structure, configure, and run auto
 cypress-swag-labs
 ├── cypress
 │   ├── fixtures
-│   │   └── example.json           # Dados de exemplo
+│   │   └── example.json           # Dados de exemplo - Example data
 │   ├── integration
-│   │   └── swag-labs.spec.js      # Testes automatizados
+│   │   └── swag-labs.spec.js      # Testes automatizados - Automated Tests
 │   ├── plugins
-│   │   └── index.js               # Plugins personalizados
+│   │   └── index.js               # Plugins personalizados - Custom plugins
 │   └── support
-│       ├── commands.js            # Comandos Cypress customizados
-│       └── index.js               # Configurações globais
-├── cypress.json                   # Configurações do Cypress
-├── package.json                   # Dependências e scripts
-└── README.md                      # Documentação do projeto
+│       ├── commands.js            # Comandos Cypress customizados - Custom Cypress Commands
+│       └── index.js               # Configurações globais - Global Settings
+├── cypress.json                   # Configurações do Cypress - Cypress Settings
+├── package.json                   # Dependências e scripts - Dependencies and scripts
+└── README.md                      # Documentação do projeto - Project documentation
 ```
 
 ---
@@ -50,6 +50,8 @@ Projeto para o meu TCC, da Universidade Católica de Pernambuco sobre automaçã
 
 Project for my undergraduate thesis at the Catholic University of Pernambuco about test automation, testing the Swag Labs website, a project using Cypress and Javascript.
 
+---
+
 ## ✅ Pré-requisitos / Prerequisites
 
 - [Node.js](https://nodejs.org/) instalado - installed
@@ -61,6 +63,8 @@ Project for my undergraduate thesis at the Catholic University of Pernambuco abo
 
 - Cypress
 - Javascript
+
+---
 
 ## 🤖 Como executar / How to execute
 
