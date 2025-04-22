@@ -73,9 +73,9 @@ Você pode editar os arquivos para adicionar novos cenários ou alterar dados do
 
 ## 🖼️ Visual da Interface do Cypress
 
-Abaixo está uma imagem da interface do Cypress executando testes:
+Abaixo está uma imagem da interface do Cypress:
 
-![Cypress em execução](https://raw.githubusercontent.com/cypress-io/cypress/develop/media/cypress-app.png)
+![Cypress Interface](https://testgrid.io/blog/wp-content/uploads/2024/04/cypress-test-automation.jpg)
 
 ---
 
