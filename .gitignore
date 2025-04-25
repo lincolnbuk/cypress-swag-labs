@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Cypress screenshots e vídeos
+cypress/screenshots/
+cypress/videos/
+
+# Downloads do Cypress
+downloads/
+cypress/downloads/
+
+# Arquivos de log
+*.log
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Relatórios de cobertura
+coverage/
+
+# Relatórios de testes
+*.xml
+*.json
+
+# Arquivos do VSCode
+.vscode/

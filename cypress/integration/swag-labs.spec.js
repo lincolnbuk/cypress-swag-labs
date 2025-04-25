@@ -16,10 +16,11 @@ describe("Swag Labs Functional Tests", () => {
     cy.get('input[id="password"]').type("secret_sauce");
     cy.get('input[id="login-button"]').click();
 
-    // Localiza e clica em todos os botões que contêm o texto "Add to cart"
-    cy.contains("Add to cart").click({ multiple: true });
+    // Clica apenas no primeiro botão .btn_inventory de cada produto
+    cy.get(".inventory_item").each(($el) => {
+      cy.wrap($el).find(".btn_inventory").first().click();
+    });
 
-    // Verifica se o número de itens no carrinho é igual ao número de produtos
     cy.get(".shopping_cart_badge").should("contain", "6"); // Supondo que existam 6 produtos
   });
 

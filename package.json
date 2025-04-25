@@ -7,10 +7,9 @@
     "test": "cypress open",
     "test:headless": "cypress run"
   },
-  "dependencies": {
-    "cypress": "^12.0.0"
+  "devDependencies": {
+    "cypress": "^14.3.2"
   },
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }

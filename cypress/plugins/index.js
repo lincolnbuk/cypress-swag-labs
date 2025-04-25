@@ -1,8 +1,3 @@
 module.exports = (on, config) => {
-  // You can implement node event listeners here.
-  afterEach(function () {
-    if (this.currentTest.state === "failed") {
-      cy.screenshot();
-    }
-  });
+  // Você pode implementar event listeners do Node aqui, se necessário.
 };
