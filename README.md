@@ -21,14 +21,16 @@ cypress-swag-labs
 ├── cypress
 │   ├── fixtures
 │   │   └── example.json           # Dados de exemplo - Example data
-│   ├── integration
-│   │   └── swag-labs.spec.js      # Testes automatizados - Automated Tests
+│   ├── e2e
+│   │   └── swag-labs.cy.js        # Testes automatizados - Automated Tests
 │   ├── plugins
 │   │   └── index.js               # Plugins personalizados - Custom plugins
+│   ├── downloads                  # Downloads do Cypress
+│   ├── screenshots                # Screenshots dos testes
 │   └── support
 │       ├── commands.js            # Comandos Cypress customizados - Custom Cypress Commands
-│       └── index.js               # Configurações globais - Global Settings
-├── cypress.json                   # Configurações do Cypress - Cypress Settings
+│       └── e2e.js                 # Configurações globais - Global Settings
+├── cypress.config.js              # Configurações do Cypress - Cypress Settings
 ├── package.json                   # Dependências e scripts - Dependencies and scripts
 └── README.md                      # Documentação do projeto - Project documentation
 ```
@@ -37,7 +39,7 @@ cypress-swag-labs
 
 ## 🧪 Estrutura dos Testes / Tests Structure
 
-- Os testes estão em - Tests are in: `cypress/integration/swag-labs.spec.js`
+- Os testes estão em - Tests are in: `cypress/e2e/swag-labs.cy.js`
 - Utilizam dados de apoio em - They use supporting data in: `cypress/fixtures/example.json`
 
 Você pode editar os arquivos para adicionar novos cenários ou alterar dados dos testes.
@@ -53,8 +55,6 @@ Projeto para o meu TCC, da Universidade Católica de Pernambuco sobre automaçã
 Project for my undergraduate thesis at the Catholic University of Pernambuco about test automation, testing the Swag Labs website, a project using Cypress and Javascript.
 
 ---
-
-## ✅ Pré-requisitos / Prerequisites
 
 - [Node.js](https://nodejs.org/) instalado - installed
 - npm ou yarn
