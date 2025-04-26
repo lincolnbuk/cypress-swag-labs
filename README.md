@@ -83,7 +83,7 @@ npx cypress run
 
 ---
 
-Isso abrirá a interface gráfica do Cypress, ou o terminal, para você executar os testes disponíveis em - This will open the Cypress graphical interface, or terminal, for you to run the tests available at `cypress/integration/swag-labs.spec.js`.
+Isso abrirá a interface gráfica do Cypress, ou o terminal, para você executar os testes disponíveis em - This will open the Cypress graphical interface, or terminal, for you to run the tests available at `cypress/e2e/swag-labs.cy.js`.
 
 ---
 
